@@ -7,6 +7,7 @@ body {
 
 html {
   font-size: 16px;
+  scroll-behavior: smooth;
 }
 
 * {
@@ -16,11 +17,13 @@ html {
 button,
 a {
   color: inherit;
+  text-decoration: none;
 }
 
 button {
   border: none;
   background: none;
+  cursor: pointer;
 }
 
 button:focus-visible,
@@ -62,11 +65,16 @@ main {
   font-weight: 700;
   letter-spacing: 0.01em;
   transition: transform 180ms ease, box-shadow 180ms ease, background-color 180ms ease;
+  white-space: nowrap;
 }
 
 .button:hover,
 .button:focus-visible {
   transform: translateY(-1px);
+}
+
+.button:active {
+  transform: translateY(0);
 }
 
 .visually-hidden {
@@ -79,8 +87,74 @@ main {
   clip-path: inset(50%);
 }
 
+/* Tablets e telas médias */
+@media (max-width: 1024px) {
+  main {
+    width: min(100%, calc(100% - 2rem));
+  }
+
+  html {
+    font-size: 15px;
+  }
+}
+
+/* Tablets pequenos */
 @media (max-width: 768px) {
   main {
     width: min(100%, calc(100% - 1.5rem));
+  }
+
+  html {
+    font-size: 15px;
+  }
+
+  .button {
+    padding: 0.85rem 1.4rem;
+    font-size: 0.95rem;
+  }
+}
+
+/* Celulares em paisagem */
+@media (max-width: 600px) {
+  main {
+    width: min(100%, calc(100% - 1.2rem));
+  }
+
+  html {
+    font-size: 14px;
+  }
+
+  .button {
+    padding: 0.8rem 1.2rem;
+    font-size: 0.9rem;
+  }
+}
+
+/* Celulares pequenos */
+@media (max-width: 480px) {
+  main {
+    width: min(100%, calc(100% - 1rem));
+  }
+
+  html {
+    font-size: 14px;
+  }
+
+  .button {
+    padding: 0.75rem 1rem;
+    font-size: 0.85rem;
+    border-radius: 24px;
+  }
+}
+
+/* Ultra pequeno */
+@media (max-width: 320px) {
+  main {
+    width: min(100%, calc(100% - 0.75rem));
+  }
+
+  .button {
+    padding: 0.7rem 0.9rem;
+    font-size: 0.8rem;
   }
 }

@@ -35,19 +35,22 @@
 
 .footer__grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
 }
 
 .footer__copy {
   margin: 0.8rem 0 0;
   color: var(--text-secondary);
   max-width: 26rem;
+  line-height: 1.6;
+  font-size: 0.95rem;
 }
 
 .footer h2 {
   margin: 0 0 0.85rem;
   font-size: 1rem;
+  font-weight: 700;
 }
 
 .footer a {
@@ -55,6 +58,8 @@
   margin-bottom: 0.65rem;
   color: var(--text-secondary);
   text-decoration: none;
+  font-size: 0.95rem;
+  transition: color 180ms ease;
 }
 
 .footer a:hover,
@@ -64,13 +69,102 @@
 
 .footer__bottom {
   margin-top: 1.8rem;
+  padding-top: 1.8rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
   color: var(--muted);
-  font-size: 0.95rem;
+  font-size: 0.9rem;
+  text-align: center;
 }
 
-@media (max-width: 760px) {
+.eyebrow {
+  margin: 0;
+  color: var(--accent);
+  font-size: 0.85rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+/* Tablets */
+@media (max-width: 768px) {
+  .footer {
+    margin-top: 2rem;
+    padding: 2rem 0 1.2rem;
+  }
+
+  .footer__grid {
+    gap: 1.5rem;
+  }
+
+  .footer h2 {
+    font-size: 0.95rem;
+  }
+
+  .footer__copy {
+    font-size: 0.9rem;
+  }
+
+  .footer__bottom {
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+  }
+}
+
+/* Celulares */
+@media (max-width: 480px) {
+  .footer {
+    margin-top: 1.5rem;
+    padding: 1.5rem 0 1rem;
+  }
+
   .footer__grid {
     grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .footer__copy {
+    font-size: 0.85rem;
+    margin-top: 0.5rem;
+  }
+
+  .footer h2 {
+    font-size: 0.9rem;
+    margin-bottom: 0.6rem;
+  }
+
+  .footer a {
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+  }
+
+  .footer__bottom {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    font-size: 0.8rem;
+  }
+
+  .eyebrow {
+    font-size: 0.75rem;
+  }
+}
+
+/* Ultra pequeno */
+@media (max-width: 320px) {
+  .footer {
+    padding: 1rem 0 0.8rem;
+  }
+
+  .footer__grid {
+    gap: 0.8rem;
+  }
+
+  .footer h2 {
+    font-size: 0.85rem;
+  }
+
+  .footer__copy,
+  .footer a {
+    font-size: 0.8rem;
   }
 }
 </style>

@@ -11,21 +11,24 @@ export const recentPosts = [
     title: 'Petro Energy anuncia nova governança ESG para 2026',
     excerpt: 'Iniciativa global com metas de redução de emissões e governança corporativa mais transparente.',
     category: 'Governança',
-    date: '14 de maio de 2026'
+    date: '14 de maio de 2026',
+    image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&h=400&fit=crop'
   },
   {
     id: 'parceria-sustentavel',
     title: 'Parceria estratégica em energias renováveis na América Latina',
     excerpt: 'Projeto de produção de hidrogênio verde e modernização de refinarias com tecnologia limpa.',
     category: 'Sustentabilidade',
-    date: '02 de maio de 2026'
+    date: '02 de maio de 2026',
+    image: 'https://images.unsplash.com/photo-1509391366360-2e938d440424?w=600&h=400&fit=crop'
   },
   {
     id: 'talentos-2026',
     title: 'Programa global de talentos consolida a liderança corporativa',
     excerpt: 'A Petro Energy investe em inovação digital e diversidade para a próxima geração de líderes.',
     category: 'Cultura',
-    date: '23 de abril de 2026'
+    date: '23 de abril de 2026',
+    image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&h=400&fit=crop'
   }
 ]
 
@@ -33,17 +36,20 @@ export const socialProjects = [
   {
     title: 'Recuperação de bacias hidrográficas',
     description: 'Programa para restaurar 6 mil hectares de áreas degradadas na África e América do Sul.',
-    metric: '6.000 ha recuperados'
+    metric: '6.000 ha recuperados',
+    image: 'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=600&h=400&fit=crop'
   },
   {
     title: 'Educação técnica para comunidades',
     description: 'Capacitação em energia, segurança e inovação para jovens em regiões de alta vulnerabilidade.',
-    metric: '12.000 pessoas atendidas'
+    metric: '12.000 pessoas atendidas',
+    image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&h=400&fit=crop'
   },
   {
     title: 'Transição de energia limpa',
     description: 'Instalação de microgrids solares e eólicas em aldeias sem acesso confiável à eletricidade.',
-    metric: '35 comunidades conectadas'
+    metric: '35 comunidades conectadas',
+    image: 'https://images.unsplash.com/photo-1509391366360-2e938d440424?w=600&h=400&fit=crop'
   }
 ]
 
