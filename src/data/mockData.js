@@ -12,7 +12,7 @@ export const recentPosts = [
     excerpt: 'Iniciativa global com metas de redução de emissões e governança corporativa mais transparente.',
     category: 'Governança',
     date: '14 de maio de 2026',
-    image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&h=400&fit=crop'
+    image: '/src/assets/images/posts/1.png'
   },
   {
     id: 'parceria-sustentavel',
@@ -20,16 +20,17 @@ export const recentPosts = [
     excerpt: 'Projeto de produção de hidrogênio verde e modernização de refinarias com tecnologia limpa.',
     category: 'Sustentabilidade',
     date: '02 de maio de 2026',
-    image: 'https://images.unsplash.com/photo-1513569018920-8f7b14c4d4df?w=600&h=400&fit=crop'
+    image: '/src/assets/images/posts/2.jpg'
   },
-  {
+    {
     id: 'talentos-2026',
     title: 'Programa global de talentos consolida a liderança corporativa',
     excerpt: 'A Petro Energy investe em inovação digital e diversidade para a próxima geração de líderes.',
     category: 'Cultura',
     date: '23 de abril de 2026',
-    image: 'https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=600&h=400&fit=crop'
+    image: '/src/assets/images/posts/3.jpg'
   }
+  
 ]
 
 export const socialProjects = [
@@ -37,19 +38,19 @@ export const socialProjects = [
     title: 'Recuperação de bacias hidrográficas',
     description: 'Programa para restaurar 6 mil hectares de áreas degradadas na África e América do Sul.',
     metric: '6.000 ha recuperados',
-    image: 'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=600&h=400&fit=crop'
+    image: '/src/assets/images/projects/bacias-hidrograficas.jpg'
   },
   {
     title: 'Educação técnica para comunidades',
     description: 'Capacitação em energia, segurança e inovação para jovens em regiões de alta vulnerabilidade.',
     metric: '12.000 pessoas atendidas',
-    image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&h=400&fit=crop'
+    image: '/src/assets/images/projects/educacao-tecnica.jpg'
   },
   {
     title: 'Transição de energia limpa',
     description: 'Instalação de microgrids solares e eólicas em aldeias sem acesso confiável à eletricidade.',
     metric: '35 comunidades conectadas',
-    image: 'https://images.unsplash.com/photo-1509391366360-2e938d440424?w=600&h=400&fit=crop'
+    image: '/src/assets/images/projects/energia-limpa.jpg'
   }
 ]
 
