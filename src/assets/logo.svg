@@ -1,0 +1,6 @@
+<svg width="120" height="32" viewBox="0 0 120 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0.5" y="0.5" width="119" height="31" rx="8.5" fill="#0E1F34" stroke="#D8B65B"/>
+  <path d="M28 8L12 24H20L28 14L36 24H44L28 8Z" fill="#D8B65B"/>
+  <path d="M58 10H50V22H58C64.6274 22 70 16.6274 70 10C70 3.37258 64.6274 -2 58 0H50V4H58C62.4183 4 66 7.58172 66 12C66 16.4183 62.4183 20 58 20H54V10H58Z" fill="#F7F5E9"/>
+  <text x="76" y="20" fill="#F7F5E9" font-family="Inter, sans-serif" font-weight="800" font-size="12">PETRO ENERGY</text>
+</svg>
