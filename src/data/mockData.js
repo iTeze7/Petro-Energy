@@ -20,7 +20,7 @@ export const recentPosts = [
     excerpt: 'Projeto de produção de hidrogênio verde e modernização de refinarias com tecnologia limpa.',
     category: 'Sustentabilidade',
     date: '02 de maio de 2026',
-    image: 'https://images.unsplash.com/photo-1509391366360-2e938d440424?w=600&h=400&fit=crop'
+    image: 'https://images.unsplash.com/photo-1513569018920-8f7b14c4d4df?w=600&h=400&fit=crop'
   },
   {
     id: 'talentos-2026',
@@ -28,7 +28,7 @@ export const recentPosts = [
     excerpt: 'A Petro Energy investe em inovação digital e diversidade para a próxima geração de líderes.',
     category: 'Cultura',
     date: '23 de abril de 2026',
-    image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&h=400&fit=crop'
+    image: 'https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=600&h=400&fit=crop'
   }
 ]
 
