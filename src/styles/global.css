@@ -40,7 +40,9 @@ ul {
 }
 
 main {
-  width: min(1200px, calc(100% - 2.25rem));
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 2rem;
   margin: 0 auto;
 }
 
@@ -90,7 +92,7 @@ main {
 /* Tablets e telas médias */
 @media (max-width: 1024px) {
   main {
-    width: min(100%, calc(100% - 2rem));
+    padding: 0 1.75rem;
   }
 
   html {
@@ -101,7 +103,7 @@ main {
 /* Tablets pequenos */
 @media (max-width: 768px) {
   main {
-    width: min(100%, calc(100% - 1.5rem));
+    padding: 0 1.5rem;
   }
 
   html {
@@ -117,7 +119,7 @@ main {
 /* Celulares em paisagem */
 @media (max-width: 600px) {
   main {
-    width: min(100%, calc(100% - 1.2rem));
+    padding: 0 1.2rem;
   }
 
   html {
@@ -133,7 +135,7 @@ main {
 /* Celulares pequenos */
 @media (max-width: 480px) {
   main {
-    width: min(100%, calc(100% - 1rem));
+    padding: 0 1rem;
   }
 
   html {
@@ -150,7 +152,7 @@ main {
 /* Ultra pequeno */
 @media (max-width: 320px) {
   main {
-    width: min(100%, calc(100% - 0.75rem));
+    padding: 0 0.75rem;
   }
 
   .button {
